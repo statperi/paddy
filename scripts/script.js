@@ -21,7 +21,7 @@ window.onload = () => {
 var Model = () => {
     return {
         code: 'ireland_terrain',
-        url: './assets/ireland_terrain/scene.gltf',
+        url: './assets/clovers/scene.gltf',
         // scale: '0.05 0.05 0.05',
         scale: '10 10 10',
         rotation: '0 0 0',
