@@ -3,8 +3,8 @@ window.onload = () => {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function (currentLocation) {
             var data = {
-                latitude: currentLocation.coords.latitude + 0.00005,
-                longitude: currentLocation.coords.longitude + 0.00005
+                latitude: currentLocation.coords.latitude,
+                longitude: currentLocation.coords.longitude
             };
 
             let model = Model();
