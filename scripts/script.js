@@ -8,7 +8,7 @@ window.onload = () => {
             };
 
             let model = Model();
-            model.location = bear.text.location = { latitude: 53.3014227, longitude: -6.1777447 };
+            model.location = model.text.location = { latitude: 53.3014227, longitude: -6.1777447 };
             createEntity(model);
 
         });
@@ -22,7 +22,8 @@ var Model = () => {
     return {
         code: 'bear',
         url: './assets/bear_male/scene.gltf',
-        scale: '0.05 0.05 0.05',
+        // scale: '0.05 0.05 0.05',
+        scale: '10 10 10',
         rotation: '0 0 0',
         // position: '0 30 0',
         // lookAt: '[camera]',
