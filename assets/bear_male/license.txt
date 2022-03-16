@@ -1,0 +1,8 @@
+Model Information:
+* title:	Bear Male
+* source:	https://sketchfab.com/3d-models/bear-male-e9b8b648d95d49daa2e64d5f6dadf0eb
+* author:	billl90 (https://sketchfab.com/billl90)
+
+Model License:
+* license type:	SKETCHFAB Editorial (https://sketchfab.com/licenses)
+* requirements:	Use only in connection with events that are newsworthy or of public interest

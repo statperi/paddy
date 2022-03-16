@@ -8,7 +8,7 @@ window.onload = () => {
             };
 
             let model = Model();
-            model.location = { latitude: 53.3014227, longitude: -6.1777447 };
+            model.location = data;
             createEntity(model);
 
         });
@@ -21,7 +21,7 @@ window.onload = () => {
 var Model = () => {
     return {
         code: 'ireland_terrain',
-        url: './assets/clovers/scene.gltf',
+        url: './assets/bear_male/scene.gltf',
         // scale: '0.05 0.05 0.05',
         scale: '10 10 10',
         rotation: '0 0 0',
