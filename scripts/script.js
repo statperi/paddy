@@ -8,7 +8,7 @@ window.onload = () => {
             };
 
             let model = Model();
-            model.location = model.text.location = { latitude: 53.3014227, longitude: -6.1777447 };
+            model.location = { latitude: 53.3014227, longitude: -6.1777447 };
             createEntity(model);
 
         });
