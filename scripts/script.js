@@ -3,8 +3,8 @@ window.onload = () => {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function (currentLocation) {
             var data = {
-                latitude: currentLocation.coords.latitude,
-                longitude: currentLocation.coords.longitude
+                latitude: currentLocation.coords.latitude + 0.00005,
+                longitude: currentLocation.coords.longitude + 0.00005
             };
 
             let model = Model();
@@ -21,7 +21,7 @@ window.onload = () => {
 var Model = () => {
     return {
         code: 'ireland_terrain',
-        url: './assets/bear_male/scene.gltf',
+        url: './assets/ireland_terrain/scene.gltf',
         // scale: '0.05 0.05 0.05',
         scale: '10 10 10',
         rotation: '0 0 0',
