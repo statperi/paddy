@@ -20,15 +20,15 @@ window.onload = () => {
 
 var Model = () => {
     return {
-        code: 'bear',
-        url: './assets/bear_male/scene.gltf',
+        code: 'ireland_terrain',
+        url: './assets/ireland_terrain/scene.gltf',
         // scale: '0.05 0.05 0.05',
         scale: '10 10 10',
         rotation: '0 0 0',
         // position: '0 30 0',
         // lookAt: '[camera]',
-        gestureConfig: 'minScale: 0.01; maxScale: 5',
-        info: 'Bear Market',
+        gestureConfig: 'minScale: 1; maxScale: 10',
+        info: 'Ireland Terrain',
         //text: {
         //    scale: '100 100 100',
         //    lookAt: '[camera]',
@@ -37,7 +37,7 @@ var Model = () => {
         //},
         text: null,
         ground: false,
-        animation: 'clip: Arm_Bear|Idle_2; loop: repeat;',
+        // animation: 'clip: Arm_Bear|Idle_2; loop: repeat;',
         successAnimation: ''
     }
 }
@@ -108,7 +108,7 @@ function createTextElement(config) {
         element.setAttribute('look-at', '[camera]');
     }
     else if (config.gestureConfig) {
-        element.setAttribute('gesture-handler', 'minScale: 0.25; maxScale: 10');
+        element.setAttribute('gesture-handler', 'minScale: 1; maxScale: 10');
         element.classList.add('clickable');
     }
     
